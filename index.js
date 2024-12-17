@@ -34,7 +34,7 @@ conectarDB();
 
 const corsOptions = {
   origin: "*",
-  methods: ["GET", "POST"],
+  methods: ["GET", "POST", "DELETE", "PUT"],
 };
 app.use(cors(corsOptions));
 
